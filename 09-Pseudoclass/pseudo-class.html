@@ -5,19 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>pseudo-classes with bootstrap</title>
 </head>
 <!-- Create a series of links and modify the pseudo-classes associated with their Default, Active, Hover, and Focus States -->
+<!-- incorporate at least three Bootstrap elements onto your page.
+ -->
+
 <body>
-  <h1>Pseudo Classes</h1>
-  <a href="https://www.keybr.com/">Typing Practice</a>
-  <a href="https://www.w3schools.com/">Learn Code</a>
-  <a href="https://github.com">Github</a>
-  <a href="https://fast.com/">Speed Test</a>
-  <a href="https://alligator.io/js/array-sort-numbers/">Array Sorting</a>
-  <div>
-    <button>FOCUS!</button>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+        featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <h1>Pseudo Classes</h1>
+    <ul class="list-group">
+      <li class="list-group-item"><a href="https://www.keybr.com/">Typing Practice</li>
+      <li class="list-group-item"><a href="https://www.w3schools.com/">Learn Code</li>
+      <li class="list-group-item"><a href="https://github.com">Github</li>
+      <li class="list-group-item"><a href="https://fast.com/">Speed Test</li>
+      <li class="list-group-item"><a href="https://alligator.io/js/array-sort-numbers/">Array Sorting</li>
+    </ul>
+    <div>
+      <button type="button" class="btn btn-info">FOCUS!</button>
+    </div>
   </div>
 
 
