@@ -1,0 +1,10 @@
+a:active {
+  color: green;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #ff00ff;
+}
+
+button:focus { background-color: #ffdb3a; }
